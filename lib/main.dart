@@ -79,6 +79,13 @@ class MyHomePage extends StatelessWidget {
                   onPressed: () => counterCubit.increment(),
                   child: const Text('Increment'),
                 ),
+                SizedBox(
+                  width: 18,
+                ),
+                ElevatedButton(
+                  onPressed: () => counterCubit.decrement(),
+                  child: const Text('Decrement'),
+                ),
               ],
             ),
           ],
